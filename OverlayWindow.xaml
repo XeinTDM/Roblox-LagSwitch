@@ -1,0 +1,9 @@
+﻿<Window x:Class="RobloxLagswitch.OverlayWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        AllowsTransparency="True" WindowStyle="None" Background="Transparent"
+        Topmost="True" ShowInTaskbar="False" Width="{Binding SystemParameters.PrimaryScreenWidth}"
+        Height="{Binding SystemParameters.PrimaryScreenHeight}">
+    <Canvas x:Name="OverlayCanvas">
+    </Canvas>
+</Window>

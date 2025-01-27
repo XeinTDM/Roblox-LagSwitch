@@ -1,0 +1,10 @@
+﻿<Window x:Class="RobloxLagswitch.KeyCaptureWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Press any key..." Height="100" Width="300"
+        WindowStyle="SingleBorderWindow" ResizeMode="NoResize">
+    <Grid>
+        <Label Content="Press any key to set as trigger key."
+               HorizontalAlignment="Center" VerticalAlignment="Center" />
+    </Grid>
+</Window>
